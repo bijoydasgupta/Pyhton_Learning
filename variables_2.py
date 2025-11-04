@@ -12,20 +12,20 @@ print(type(f))
 print(type(b))  # Getting the data type of the variables
 
 print()  # New Line
-x, y, z = "Orange", "Banana", "Cherry"  # Many Values to Multiple Variables
+x, y, z = "Orange", "Banana", "mango"  # Many Values to Multiple Variables
 print(x)
 print(y)
 print(z)
 print()  # New Line
 
-x = y = z = "Orange"  # One Value to Multiple Variables
+x = y = z = "mango"  # One Value to Multiple Variables
 print(x)
 print(y)
 print(z)
 print()  # New Line
 
 # Unpack a Collection
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "grape"]
 x, y, z = fruits
 print(x)
 print(y)
