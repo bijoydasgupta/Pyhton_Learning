@@ -1,6 +1,6 @@
 x = str(3)
 y = int(3)
-z = float(3)
+z = float(3)  # Casting
 print()  # New Line
 print(x)
 print(y)
