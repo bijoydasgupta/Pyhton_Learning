@@ -19,7 +19,8 @@ print(b)
 
 print()  # New Line
 c = "Hello World"
-print("6-Indexed value of 'Hello World':", c[6])
+print("c[0] of 'Hello World':", c[0])
+print("(c[-1] of 'Hello World':", c[-1])
 
 print()  # New Line
 print("Length of 'Hello World':", len(c))
