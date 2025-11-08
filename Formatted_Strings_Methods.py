@@ -22,7 +22,7 @@ print(greet.upper())  # HELLO WORLD
 print(greet.lower())  # hello world
 print(greet.title())  # Hello World
 print(greet.strip())  # spaces will  be gone
-
+print()  # New Line
 print(greet.find("Pro"))  # -1
 print(greet.replace('O', ' '))  # hell  worLd
 
