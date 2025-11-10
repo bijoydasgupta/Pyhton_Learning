@@ -1,4 +1,4 @@
-import math  # It will works from 27 no. line
+import math  # It works from 27 no. line
 print()  # New Line
 x = 1
 y = 1.123
