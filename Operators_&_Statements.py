@@ -10,8 +10,17 @@ print("'bg' < 'dog':", 'bg' < 'dog')
 print("'bg' == 'BG':", 'bg' == 'BG')
 
 print("\nConditional Statements:")
-temperture = 35
+temperture = 15
 if temperture > 30:
     print("It's hot")
     print("Drink water")
+elif temperture > 20:
+    print("It's nice")
+else:
+    print("It's cold")
 print("Done")
+
+print("\nTernary Operator:")
+Age = 22
+text = "Eligible" if Age >= 18 else "Not eligible"
+print(text)
