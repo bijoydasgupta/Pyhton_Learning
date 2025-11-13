@@ -71,3 +71,8 @@ else:
 
 # Chaining Comparison Operators
 print("\nChaining Comparison Operators:")
+age = 22
+if 18 <= age < 65:
+    print("Eligible Employee")
+else:
+    print("Not Eligible Employee")
