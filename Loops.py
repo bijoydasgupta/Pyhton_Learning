@@ -9,4 +9,12 @@ for number in range(1, 10, 3):
     print("attempt", number, number * ".")
 
 
-print("\nFor...else:")
+print("\n\nFor...else:")
+successful = False
+for number in range(3):
+    print("Attempt")
+    if successful:
+        print("successful")
+        break
+else:
+    print("Attempted 3 times & failed")
