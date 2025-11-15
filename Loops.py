@@ -18,3 +18,14 @@ for number in range(3):
         break
 else:
     print("Attempted 3 times & failed")
+
+
+print("\n\nNested Loops:")
+for x in range(5):
+    for y in range(3):
+        print(f"({x},{y})")
+
+
+print("\n\nIterables:")
+print(type(5))
+print(type(range(5)))
